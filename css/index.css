@@ -931,3 +931,36 @@ body {
     }
 }
 /*--RECENT PROJECTS--*/
+
+/*--OUR CLIENTS--*/
+.our-clients {
+    background: white;
+    padding: 0 5%;
+}
+
+.our-clients h1 {
+    text-align: center;
+    color: #004300;
+    font-weight: 600;
+}
+
+.clients-cont {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.clients-cont img {
+    width: 21%;
+    margin: 30px 2%;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .clients-cont img {
+        width: 46%;
+        margin: 30px 2%;
+    }
+    
+}
+/*--OUR CLIENTS--*/
