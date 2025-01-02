@@ -948,6 +948,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
+    margin-bottom: 70px;
 }
 
 .clients-cont img {
@@ -964,3 +965,102 @@ body {
     
 }
 /*--OUR CLIENTS--*/
+
+/*--RECENT BLOG--*/
+.recent-blog {
+    background: #f5f5f5;
+    padding: 70px 5%;
+    text-align: center;
+}
+
+.rb-cont {
+    display: flex;
+    margin-top: 50px;
+}
+
+.rb-post {
+    text-align: left;
+    margin: 0 10px;
+    border: 5px #228f18 solid;
+    border-radius: 3px;
+    cursor: default;
+}
+
+.rb-post span {
+    float: right;
+    font-size: 15px;
+    color: darkgrey;
+}
+
+.rb-img1 {
+    background-image: url(rb/1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.rb-img2 {
+    background-image: url(rb/2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.rb-img3 {
+    background-image: url(rb/3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.rb-img1 b, .rb-img2 b, .rb-img3 b {
+    background: #228f18;
+    color: white;
+    padding: 2px 5px;
+    font-size: 18px;
+    border-bottom-right-radius: 3px;
+}
+ 
+
+.rb-body {
+    background: white;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.rb-body h3 {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.rb-body p {
+    color: dimgrey;
+}
+
+.rb-body a {
+    text-decoration: none;
+    padding: 7px 15px;
+    color: white;
+    background: #228f18;
+    border: 2px #228f18 solid;
+    border-radius: 40px;
+    transition: 0.2s;
+}
+
+.rb-body a:hover {
+    color: #228f18;
+    background: white;
+}
+
+@media screen and (max-width: 980px) {
+    
+    .rb-cont {
+        display: grid;
+    }
+    
+    .rb-post {
+        margin: 10px 0;
+    }
+}
+
+/*--RECENT BLOG--*/
