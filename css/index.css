@@ -669,7 +669,7 @@ body {
     
     .main-features {
         flex-direction: column;
-        padding: 100px 5%;
+        padding: 100px 3%;
     }
     
     .left {
@@ -807,7 +807,7 @@ body {
 
 .p2 {
     text-align: center;
-    padding: 10px 20%;
+    margin: 10px 20%;
     color: dimgrey;
 }
 
@@ -928,6 +928,10 @@ body {
     
     .project1, .project2, .project3, .project4, .project5, .project6, .project7, .project8 {
         width: 100%;
+    }
+    
+    .p2 {
+        margin: 10px 10%;
     }
 }
 /*--RECENT PROJECTS--*/
