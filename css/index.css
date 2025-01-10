@@ -156,6 +156,7 @@ body {
     display: flex;
     align-items: center;
     padding: 0 40px;
+    cursor: default;
 }
 
 .nav-links {
@@ -168,6 +169,7 @@ body {
     margin-right: 43px;
     color: white;
     text-decoration: none;
+    cursor: pointer !important;
 }
 
 .nav-links a:hover {
@@ -1155,7 +1157,7 @@ body {
 }
 
 .f-social a:hover {
-    opacity: 0.8;
+    color: #228f18;
 }
 
 .f-social i {
@@ -1204,3 +1206,87 @@ body {
     
 }
 /*--FOOTER--*/
+
+/*--SIDE MENU--*/
+.side-menu-cont {
+    background: rgba(34, 143, 24, 0.7);
+    position: fixed;
+    left: -100%;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.side-menu {
+    position: relative;
+    left: -100%;
+    background: #004300;
+    color: white;
+    height: 100%;
+    width: 60%;
+    min-width: 280px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.side-menu img {
+    width: 75%;
+    min-width: 220px;
+}
+
+.side-menu button {
+    float: right;
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+    padding: 2px;
+}
+
+.side-menu button:hover {
+    color: #228f18;
+}
+
+.side-menu button i {
+    font-size: 18px;
+}
+
+.side-menu ul {
+    color: white;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    list-style-type: none;
+    line-height: 2.0;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.side-menu li i {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.side-menu a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.side-menu a:hover {
+    text-decoration: underline;
+}
+
+.side-menu span {
+    position: absolute;
+    margin-bottom: 35px;
+    bottom: 0;
+    font-size: 14px;
+    cursor: default;
+}
+
+.side-menu span i {
+    font-size: 14px;
+}
+/*--SIDE MENU--*/
