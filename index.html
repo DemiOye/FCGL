@@ -47,8 +47,8 @@
             
             <!--NAV LINK END-->
             <div class="nav-links">
-                <a href="">Home</a>
-                <a href="">About</a>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
                 <a href="">Projects</a>
                 <a href="">Services</a>
                 <a href="">Blog</a>
@@ -372,8 +372,8 @@
                     </div>
                     <div class="f-links">
                         <h3>Links</h3>
-                        <i class="fa fa-genderless"></i><a href="">Home</a><br>
-                        <i class="fa fa-genderless"></i><a href="">About</a><br>
+                        <i class="fa fa-genderless"></i><a href="index.html">Home</a><br>
+                        <i class="fa fa-genderless"></i><a href="about.html">About</a><br>
                         <i class="fa fa-genderless"></i><a href="">Project</a><br>
                         <i class="fa fa-genderless"></i><a href="">Services</a><br>
                         <i class="fa fa-genderless"></i><a href="">Blog</a><br>
@@ -400,8 +400,8 @@
                     <img src="img/invertlogo.jpg">
                     <button id="close-menu"><i class="fa fa-close"></i></button>
                     <ul>
-                        <li><i class="fa fa-genderless"></i><a href="">Home</a></li>
-                        <li><i class="fa fa-genderless"></i><a href="">About</a></li>
+                        <li><i class="fa fa-genderless"></i><a href="index.html">Home</a></li>
+                        <li><i class="fa fa-genderless"></i><a href="about.html">About</a></li>
                         <li><i class="fa fa-genderless"></i><a href="">Projects</a></li>
                         <li><i class="fa fa-genderless"></i><a href="">Services</a></li>
                         <li><i class="fa fa-genderless"></i><a href="">Blog</a></li>
@@ -435,8 +435,7 @@
                 /* CURRENT YEAR SCRIPT */
                 document.getElementById("current-year").innerHTML = new Date().getFullYear();
                 document.getElementById("menu-current-year").innerHTML = new Date().getFullYear();
-                /* CURRENT YEAR 
-                
+                /* CURRENT YEAR SCRIPT END */
                 
                 /* OPEN AND CLOSE SIDE MENU */
                 document.getElementById("menu-button").onclick =()=> {
@@ -448,7 +447,7 @@
                 document.getElementById("close-menu").onclick =()=> {
                     document.getElementById("menu-main").style.left = "-100%";
                     document.getElementById("menu").style.left = "-100%";
-                    document.getElementById("body").style.overflow = "scroll"
+                    document.getElementById("body").style.overflow = "unset";
                 }
                 /* OPEN AND CLOSE SIDE MENU */
                 

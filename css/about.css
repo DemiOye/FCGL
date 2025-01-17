@@ -1,0 +1,251 @@
+/* ABOUT BANNER */
+.about-banner {
+    background-image: url(banners/about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+.about-banner-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background: rgba(0, 67, 0, 0.7);
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.about-banner-cont h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+    font-size: 35px;
+}
+
+.about-banner-cont a {
+    color: white;
+    text-decoration: none;
+}
+
+.about-banner-cont a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    
+    .about-banner {
+        height: 250px;
+    }
+    
+}
+/* ABOUT BANNER END */
+
+/* ABOUT SECTION 1 */
+.about-sec1 {
+    display: flex;
+    background: white;
+    padding: 100px 5%;
+}
+
+.half1 {
+    width: 55%;
+    margin-right: 5%;
+}
+
+.half1 h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #004300;
+    letter-spacing: 0.5px;
+}
+
+.half1 p {
+    line-height: 1.8;
+    color: dimgrey;
+    font-size: 18px;
+}
+
+.half2 {
+    background-image: linear-gradient(46deg, #004300, #ffffff, #004300);
+    width: 40%;
+    padding: 20px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 115px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.6);
+}
+
+.half2 img {
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .half1 p {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    
+    .half1 p {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    
+    .half1 p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .about-sec1 {
+        flex-direction: column;
+        padding: 70px 5%;
+    }
+    
+    .half1 {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    
+    .half2 {
+        width: inherit;
+    }
+    
+}
+/* ABOUT SECTION 1 END */
+
+/* ABOUT SECTION 2 */
+.about-sec2 {
+    background: white;
+    display: flex;
+    padding: 120px 5%;
+}
+
+.half3 {
+    width: 40%;
+    padding: 10px;
+    background-image: linear-gradient(46deg, #004300, #ffffff, #004300);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.6);
+    height: 255.617px;
+    margin-top: 100px;
+}
+
+.half3 video {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.6);
+}
+
+.half4 {
+    width: 55%;
+    margin-left: 5%;
+}
+
+.half4 h1 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #004300;
+    letter-spacing: 0.5px;
+}
+
+.half4 p {
+    line-height: 1.8;
+    color: dimgrey;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    .half3 {
+        height: 240px;
+    }
+    
+    .half4 p {
+        font-size: 17px;
+    }
+    
+}
+
+@media screen and (max-width: 1150px) {
+    
+    .half3 {
+        height: 230px;
+    }
+    
+}
+
+@media screen and (max-width: 1100px) {
+    
+    .half3 {
+        height: 220px;
+    }
+    
+    .half4 p {
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .half3 {
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 950px) {
+    
+    .about-sec2 {
+        padding: 80px 5%;
+    }
+    
+    .half3 {
+        height: 190px;
+        margin-top: 80px;
+    }
+    
+    .half4 p {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    
+    .about-sec2 {
+        flex-direction: column-reverse;
+        padding-bottom: 170px;
+    }
+    
+    .half3 {
+        width: inherit;
+        height: unset;
+        margin-top: 50px;
+    }
+    
+    .half4 {
+        width: 100%;
+        margin: 0;
+    }
+    
+}
+/* ABOUT SECTION 2 END */
