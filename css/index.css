@@ -814,7 +814,6 @@ body {
 }
 
 .projects-cont {
-    background: cyan;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
